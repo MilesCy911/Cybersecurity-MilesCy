@@ -9,3 +9,11 @@ These tasks simulate how cybersecurity professionals use Windows CMD and PowerSh
 **Command:**
 ```bash
 netstat -an
+
+---
+
+## 👥 Task 2: **Check Logged-In Users**
+
+**Command:**
+```powershell
+Get-WmiObject -Class Win32_ComputerSystem
