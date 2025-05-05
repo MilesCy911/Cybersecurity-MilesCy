@@ -8,7 +8,7 @@ These tasks simulate how cybersecurity professionals use Windows CMD and PowerSh
 
 **Command:**
 ```bash
-netstat -an
+Get-NetTCPConnection | Select-Object LocalAddress, LocalPort, RemoteAddress, RemotePort, State, OwningProcess
 
 ---
 
