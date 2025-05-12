@@ -7,4 +7,4 @@ Use PowerShell to perform a basic OSINT (Open Source Intelligence) search on an 
 
 ## 🧪 Command
 ```powershell
-nslookup <IP_address>
+nslookup 8.8.8.8
