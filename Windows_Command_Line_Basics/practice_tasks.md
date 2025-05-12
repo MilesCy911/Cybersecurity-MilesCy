@@ -7,7 +7,7 @@ These tasks simulate how cybersecurity professionals use Windows CMD and PowerSh
 ## 🔍 Task 1: View Active Network Connections
 
 **Command:**
-```bash
+```powershell
 Get-NetTCPConnection | Select-Object LocalAddress, LocalPort, RemoteAddress, RemotePort, State, OwningProcess
 
 ---
