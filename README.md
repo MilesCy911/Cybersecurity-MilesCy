@@ -1,47 +1,46 @@
-# Cybersecurity-MilesCy
-Foundational projects in command-line operations, log analysis, OSINT techniques, and threat investigation using Windows-based tools
-This repository documents my hands-on learning in cybersecurity through practical, entry-level projects. The focus is on building core skills using familiar tools like Command Prompt and PowerShell, with a gradual progression toward more advanced concepts and environments.
+# 🛡️ PowerShell Cybersecurity Portfolio
 
-📁 Project Structure
+Welcome to my PowerShell cybersecurity portfolio — a collection of practical tasks that simulate how defenders use PowerShell to investigate, audit, and monitor Windows systems.
 
-🔹 Windows Command Line Basics
+Each task demonstrates a key technique useful for system forensics, threat hunting, and real-time response.
 
-Explore essential command-line operations for system monitoring, user activity checks, and basic network diagnostics using CMD and PowerShell.
+---
 
-🔹 Log Analysis
+## 🧰 Contents
 
-Use PowerShell to extract and analyze Windows Event Logs for suspicious activity. Learn to identify failed login attempts, privilege use, and other security-relevant events.
+| 🔢 Task | Title | Description |
+|--------|-------|-------------|
+| 1 | [View Active Network Connections](task1-network-connections.md) | List current TCP connections with process info |
+| 2 | [Check Logged-In Users](task2-logged-in-users.md) | Identify currently logged-in users |
+| 3 | [List Running Processes](task3-list-processes.md) | Show all processes running on the system |
+| 4 | [Check for Open Ports](task4-open-ports.md) | Detect listening ports using `netstat` |
+| 5 | [Review Event Logs](task5-event-logs.md) | Open Event Viewer for system log review |
+| 6 | [Investigate Suspicious Processes](task6-suspicious-processes.md) | Use `get-process` for quick overview |
+| 7 | [OSINT on IP Addresses](task7-osint-ip.md) | Investigate domains/IPs using `nslookup` |
+| 8 | [Check Startup Programs](task8-startup-programs.md) | List apps that auto-start with Windows |
+| 9 | [User Account & Privilege Audit](task9-user-audit.md) | Check local users and admin group members |
+| 10 | [Firewall Rules Check](task10-firewall-rules.md) | Audit active firewall rules |
+| 11 | [Detect Hidden Files](task11-hidden-files.md) | Recursively find hidden files on the drive |
+| 12 | [Running Process Audit](task12-process-audit.md) | Get process names, IDs, and paths |
+| 13 | [Scan Listening Ports & Processes](task13-listening-ports.md) | Map open ports to owning processes |
+| 14 | [DNS Cache Review](task14-dns-cache.md) | Inspect the local DNS resolver cache |
 
-🔹 OSINT (Open Source Intelligence)
+---
 
-Practice basic threat investigation techniques such as domain lookups, phishing analysis, and external intel gathering using freely available web tools.
+## 🎯 Purpose
 
-🔹 Basic Networking Tasks
+This project is designed to:
 
-Understand how to use tools like ipconfig, netstat, tracert, and others for basic network visibility and diagnostics.
+- Practice core PowerShell skills for cybersecurity use cases.
+- Simulate real-world detection and investigation scenarios.
+- Provide quick reference scripts for blue teamers, SOC analysts, and learners.
 
-🔹 Fraud to Cybersecurity Transition
+---
 
-A high-level overview of how analytical skills from fraud prevention translate into cybersecurity concepts like threat hunting, anomaly detection, and behavioral analysis.
+## 🧠 Author
 
-⚙️ Tools Used
+**Ismaeel Johnstone**  
+Risk, Payments & Fraud Team Leader | Moonspin 
+[LinkedIn](https://www.linkedin.com/in/ismaeel-johnstone-b80659252)  
+📍 Goodwood, Cape Town, South Africa
 
-Command Prompt (CMD)
-
-PowerShell
-
-Windows Event Viewer
-
-OSINT Web Tools (e.g., WHOIS, VirusTotal, urlscan.io)
-
-Markdown for documentation
-
-📌 Goals
-
-Reinforce security fundamentals through hands-on practice.
-
-Build a public, trackable portfolio showcasing learning progress.
-
-Prepare for more advanced labs using Linux, virtual machines, and real-world frameworks (e.g., MITRE ATT&CK).
-
-www.linkedin.com/in/ismaeel-johnstone-b80659252
