@@ -9,3 +9,9 @@ Tasks will include:
 - Explanations
 
 Stay tuned !
+
+## 🧠 Author
+
+**Ismaeel Johnstone**  
+Risk, Payments & Fraud Team Leader | Moonspin 
+[LinkedIn](https://www.linkedin.com/in/ismaeel-johnstone-b80659252)  
