@@ -3,11 +3,13 @@
 This folder contains essential SQL tasks tailored to cybersecurity use cases. Each task helps reinforce essential concepts such as access auditing, login tracking, data manipulation, and anomaly detection using SQL.
 
 Tasks will include:
+
 - Table creation
 - Sample data
 - Security-relevant queries
 - Explanations
-
+- Login attempt auditing
+  
 Stay tuned !
 
 ## 🧠 Author
