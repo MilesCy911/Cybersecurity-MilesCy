@@ -42,5 +42,5 @@ This project is designed to:
 **Ismaeel Johnstone**  
 Risk, Payments & Fraud Team Leader | Moonspin 
 [LinkedIn](https://www.linkedin.com/in/ismaeel-johnstone-b80659252)  
-📍 Goodwood, Cape Town, South Africa
+
 
